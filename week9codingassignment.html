@@ -15,8 +15,8 @@
 <section>
     <body class="container-fluid">
         <a class="navbar-brand" href="week9codingassignment.html">Meridian Farms</a>
-        <button class="navbar-toggler" type="button" data-toggles="collapse" data-target="#navbarNavDropdown"
-        aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>    
     </button>
     
@@ -37,7 +37,17 @@
                 Dropdown
             </a>
             </li>
-        </ul>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="about.html">About</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+         <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+         </ul>
     </div>
 
     <body class="bg-purple-400">
