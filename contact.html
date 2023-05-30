@@ -74,13 +74,22 @@
         width="500"
         />
     </div><br>
-    <form class="container text-center mb-5 fs-5 text-secondary">
-        <p class="container text-muted ">Please fill out the form below and a member of our team will reach out to you. <br> Thank you for your interest!</p> <br>
-        <div class="col-md-3"></div>
-            <input type="text" name="firstName" placeholder="First Name">
-            <input type="text" name="lastName" placeholder="Last Name">
-            <input type="text" name="email" placeholder="Email">
-            <input type="submit" value="Submit">
-        </div>
+    <p class="container text-muted text-center">Please fill out the form below and a member of our team will reach out to you. 
+        <br> Thank you for your interest!</p>
+
+    <form class="container text-center text-secondary">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" name="firstName" placeholder="First Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="col">
+                <input type="submit" class="form-control bg-secondary" value="Submit">
+            </div>
+        </div>     
     </form>
-    <p class="container pt-1 pb-2 text-muted text-center"></p>
