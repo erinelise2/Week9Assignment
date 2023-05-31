@@ -1,0 +1,10 @@
+.horse {
+    max-width: 300px;
+    
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+
+   }
